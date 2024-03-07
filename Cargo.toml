@@ -6,7 +6,7 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-halo2_proofs = { git = "https://github.com/DelphinusLab/halo2-gpu-specific.git", default-features = true }
+halo2_proofs = { git = "https://github.com/DelphinusLab/halo2-gpu-specific.git", default-features = true, branch="zhangjunyu/para-synthesize" }
 subtle = { version = "2.3", default-features = false }
 
 [dev-dependencies]
